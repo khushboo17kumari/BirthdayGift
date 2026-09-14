@@ -282,10 +282,10 @@ document.addEventListener('DOMContentLoaded', () => {
   let isUnboxed = false;
 
   const photoSources = [
-    { src: 'assets/side_nitu_red_saree_sq.jpg', fullSrc: 'assets/side_nitu_red_saree.jpg', caption: 'Gorgeous Birthday Queen Nitu 💖 | Red Saree Elegance' },
-    { src: 'assets/nitu_photo_restaurant_sq.jpg', fullSrc: 'assets/nitu_photo_restaurant.jpg', caption: 'Stunning Glamour ✨ | Queen Nitu in Green Saree' },
+    { src: 'assets/side_nitu_red_saree_sq.jpg', fullSrc: 'assets/side_nitu_red_saree.jpg', caption: 'Gorgeous Birthday Queen Nitu 💖 | Red Saree Elegance (With love, Khushi)' },
+    { src: 'assets/nitu_photo_restaurant_sq.jpg', fullSrc: 'assets/nitu_photo_restaurant.jpg', caption: 'Stunning Glamour ✨ | Queen Nitu & Khushi Bestie Memories' },
     { src: 'assets/side_nitu_blue_saree_sq.jpg', fullSrc: 'assets/side_nitu_blue_saree.jpg', caption: 'Vibrant Sunshine & Elegance 👑 | Queen Nitu' },
-    { src: 'assets/nitu_photo_mall_selfie_sq.jpg', fullSrc: 'assets/nitu_photo_mall_selfie.jpg', caption: 'Shining Bright Always 💕 | Birthday Queen Nitu' },
+    { src: 'assets/nitu_photo_mall_selfie_sq.jpg', fullSrc: 'assets/nitu_photo_mall_selfie.jpg', caption: 'Shining Bright Always 💕 | Khushi & Nitu Outing' },
     { src: 'assets/side_nitu_green_saree_sq.jpg', fullSrc: 'assets/side_nitu_green_saree.jpg', caption: 'Pure Grace & Charm ✨ | Queen Nitu' }
   ];
 
@@ -293,11 +293,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function getResponsivePositions() {
     if (window.innerWidth < 600) {
       return [
-        { top: '10%', left: '2%' },
-        { top: '16%', right: '2%' },
-        { top: '48%', left: '1%' },
-        { top: '72%', right: '1%' },
-        { top: '88%', left: '2%' }
+        { top: '10%', left: '4%' },
+        { top: '18%', right: '4%' },
+        { top: '48%', left: '3%' },
+        { top: '70%', right: '3%' },
+        { top: '86%', left: '4%' }
       ];
     } else {
       return [
@@ -568,13 +568,13 @@ document.addEventListener('DOMContentLoaded', () => {
   let unlockedCount = 0;
 
   const nituCompliments = [
-    "Nitu has the prettiest smile! 😊",
-    "Absolute fashion & glam queen! 👗",
-    "Always there when you need a hug! 💕",
+    "Khushi loves Nitu's glowing smile! 😊",
+    "Absolute fashion & glam queen Nitu! 👗",
+    "Khushi & Nitu are besties forever & ever! 💕",
     "Master of hilarious gossip & jokes! 👑",
-    "Pure sunshine in everyone's life! ☀️",
-    "Loyal best friend forever & ever! 🥂",
-    "Smart, fierce, and unbreakable! ✨"
+    "Pure sunshine in Khushi's life! ☀️",
+    "Loyal best friend forever - Nitu! 🥂",
+    "Smart, fierce, and Khushi's favorite person! ✨"
   ];
 
   function initBalloons() {
